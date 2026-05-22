@@ -48,8 +48,8 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       title="Studio Forte Massucci. "
       description="Studio Forte Massucci offre assistenza pluriennale per la tua contabilità, gestione societaria e revisione legale. Soluzioni su misura nel cuore di Roma."
-      leftCarouselItems={[]}
-      rightCarouselItems={[]}
+      leftCarouselItems={[{ imageSrc: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=600&q=80", imageAlt: "Studio Ambiente" }, { imageSrc: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&q=80", imageAlt: "Consulenza Professionale" }]}
+      rightCarouselItems={[{ imageSrc: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&q=80", imageAlt: "Team Lavoro" }, { imageSrc: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&q=80", imageAlt: "Business Roma" }]}
       buttons={[{ text: "Contattaci", href: "#contact" }]}
     />
   </div>
@@ -65,6 +65,7 @@ export default function LandingPage() {
         { title: "Gestione Lavoro", description: "Supporto completo paghe e contributi." },
         { title: "Revisione Legale", description: "Revisione puntuale e certificata." },
       ]}
+      imageSrc="https://images.unsplash.com/photo-1554744512-78d78304910e?w=800&h=600&q=80"
       mediaAnimation="slide-up"
     />
   </div>
@@ -74,11 +75,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Contabilità Fiscale", description: "Dichiarazioni, bilanci e adempimenti.", buttonIcon: Calculator },
-        { title: "Consulenza Lavoro", description: "Gestione personale, buste paga.", buttonIcon: Users },
-        { title: "Consulenza Societaria", description: "Costituzione e modifiche societarie.", buttonIcon: Building },
-        { title: "Revisione Legale", description: "Revisione bilanci per enti e imprese.", buttonIcon: ShieldCheck },
-        { title: "Pianificazione Fiscale", description: "Strategie su misura per il risparmio.", buttonIcon: TrendingUp },
+        { title: "Contabilità Fiscale", description: "Dichiarazioni, bilanci e adempimenti.", imageSrc: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&q=80", buttonIcon: Calculator },
+        { title: "Consulenza Lavoro", description: "Gestione personale, buste paga.", imageSrc: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&q=80", buttonIcon: Users },
+        { title: "Consulenza Societaria", description: "Costituzione e modifiche societarie.", imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&q=80", buttonIcon: Building },
+        { title: "Revisione Legale", description: "Revisione bilanci per enti e imprese.", imageSrc: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&q=80", buttonIcon: ShieldCheck },
+        { title: "Pianificazione Fiscale", description: "Strategie su misura per il risparmio.", imageSrc: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&h=400&q=80", buttonIcon: TrendingUp },
       ]}
       title="I nostri Servizi"
       description="Copriamo ogni aspetto amministrativo della tua attività professionale."
@@ -132,11 +133,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", title: "Eccellenti", quote: "Studio professionale e molto disponibile.", name: "Mario R.", role: "Imprenditore" },
-        { id: "2", title: "Puntuali", quote: "Gestione fiscale impeccabile per la mia attività.", name: "Giulia S.", role: "Professionista" },
-        { id: "3", title: "Competenti", quote: "Consigli validissimi per il mio lavoro.", name: "Luca V.", role: "Commerciante" },
-        { id: "4", title: "Consigliato", quote: "Molto precisi con le scadenze.", name: "Anna P.", role: "Libera Professionista" },
-        { id: "5", title: "Servizio Ottimo", quote: "Supporto completo e affidabile.", name: "Roberto D.", role: "Responsabile" },
+        { id: "1", title: "Eccellenti", quote: "Studio professionale e molto disponibile.", name: "Mario R.", role: "Imprenditore", imageSrc: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200&q=80" },
+        { id: "2", title: "Puntuali", quote: "Gestione fiscale impeccabile per la mia attività.", name: "Giulia S.", role: "Professionista", imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&q=80" },
+        { id: "3", title: "Competenti", quote: "Consigli validissimi per il mio lavoro.", name: "Luca V.", role: "Commerciante", imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&q=80" },
+        { id: "4", title: "Consigliato", quote: "Molto precisi con le scadenze.", name: "Anna P.", role: "Libera Professionista", imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&q=80" },
+        { id: "5", title: "Servizio Ottimo", quote: "Supporto completo e affidabile.", name: "Roberto D.", role: "Responsabile", imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&q=80" },
       ]}
       title="Cosa dicono i clienti"
       description="La soddisfazione dei nostri assistiti è la nostra priorità."
