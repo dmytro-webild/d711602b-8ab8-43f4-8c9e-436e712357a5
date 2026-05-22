@@ -65,19 +65,19 @@ export default function LandingPage() {
       description="Studio Forte Massucci offre assistenza pluriennale per la tua contabilità, gestione societaria e revisione legale. Soluzioni su misura nel cuore di Roma."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-wearing-spectacles-holding-newspaper-caf_23-2147876735.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-wearing-spectacles-holding-newspaper-caf_23-2147876735.jpg?_wi=1",
           imageAlt: "Studio Forte Massucci Eur",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-office-worker-woman-standing-office-desk-with-documents-using-computer-with-confident-serious-expression-face-working-office_141793-21295.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-office-worker-woman-standing-office-desk-with-documents-using-computer-with-confident-serious-expression-face-working-office_141793-21295.jpg?_wi=1",
           imageAlt: "Portrait of young office worker woman standing at office desk with documents",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/corporate-employee-looking-smartphone-screen-while-working-business-planning-with-computer-charts-company-office-businesswoman-using-mobile-phone-brainstorming-ideas_482257-33458.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/corporate-employee-looking-smartphone-screen-while-working-business-planning-with-computer-charts-company-office-businesswoman-using-mobile-phone-brainstorming-ideas_482257-33458.jpg?_wi=1",
           imageAlt: "Corporate employee looking at smartphone screen",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-businesswoman-with-newspaper_23-2147876730.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-businesswoman-with-newspaper_23-2147876730.jpg?_wi=1",
           imageAlt: "Portrait of a businesswoman with newspaper",
         },
         {
@@ -95,15 +95,15 @@ export default function LandingPage() {
           imageAlt: "Portrait of young office worker woman standing at office desk",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-office-worker-woman-standing-office-desk-with-documents-using-computer-with-confident-serious-expression-face-working-office_141793-21295.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-office-worker-woman-standing-office-desk-with-documents-using-computer-with-confident-serious-expression-face-working-office_141793-21295.jpg?_wi=2",
           imageAlt: "Portrait of young office worker woman standing at office desk with documents",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/corporate-employee-looking-smartphone-screen-while-working-business-planning-with-computer-charts-company-office-businesswoman-using-mobile-phone-brainstorming-ideas_482257-33458.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/corporate-employee-looking-smartphone-screen-while-working-business-planning-with-computer-charts-company-office-businesswoman-using-mobile-phone-brainstorming-ideas_482257-33458.jpg?_wi=2",
           imageAlt: "Corporate employee looking at smartphone screen",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-businesswoman-with-newspaper_23-2147876730.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-businesswoman-with-newspaper_23-2147876730.jpg?_wi=2",
           imageAlt: "Portrait of a businesswoman with newspaper",
         },
       ]}
@@ -181,7 +181,7 @@ export default function LandingPage() {
           description: "Revisione puntuale e certificata.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/happy-business-man-working-laptop-lobby_1262-5095.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/happy-business-man-working-laptop-lobby_1262-5095.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -202,28 +202,28 @@ export default function LandingPage() {
           title: "Consulenza Lavoro",
           description: "Gestione personale, buste paga.",
           buttonIcon: "Users",
-          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-wearing-spectacles-holding-newspaper-caf_23-2147876735.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-wearing-spectacles-holding-newspaper-caf_23-2147876735.jpg?_wi=2",
           imageAlt: "Businessman examining document",
         },
         {
           title: "Consulenza Societaria",
           description: "Costituzione e modifiche societarie.",
           buttonIcon: "Building",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-business-man-working-laptop-lobby_1262-5095.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-business-man-working-laptop-lobby_1262-5095.jpg?_wi=2",
           imageAlt: "Businessman examining document",
         },
         {
           title: "Revisione Legale",
           description: "Revisione bilanci per enti e imprese.",
           buttonIcon: "ShieldCheck",
-          imageSrc: "http://img.b2bpic.net/free-photo/friendly-handsome-business-leader-cafe_1262-3537.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friendly-handsome-business-leader-cafe_1262-3537.jpg?_wi=1",
           imageAlt: "Businessman examining document",
         },
         {
           title: "Pianificazione Fiscale",
           description: "Strategie su misura per il risparmio.",
           buttonIcon: "TrendingUp",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg?_wi=1",
           imageAlt: "Businessman examining document",
         },
       ]}
@@ -354,7 +354,7 @@ export default function LandingPage() {
           quote: "Studio professionale e molto disponibile.",
           name: "Mario R.",
           role: "Imprenditore",
-          imageSrc: "http://img.b2bpic.net/free-photo/friendly-handsome-business-leader-cafe_1262-3537.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friendly-handsome-business-leader-cafe_1262-3537.jpg?_wi=2",
         },
         {
           id: "2",
@@ -362,7 +362,7 @@ export default function LandingPage() {
           quote: "Gestione fiscale impeccabile per la mia attività.",
           name: "Giulia S.",
           role: "Professionista",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg?_wi=2",
         },
         {
           id: "3",
