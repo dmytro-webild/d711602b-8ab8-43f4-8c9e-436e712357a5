@@ -46,7 +46,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
       background={{ variant: "gradient-bars" }}
-      title="Consulenza Fiscale e del Lavoro all'Eur"
+      title="Studio Forte Massucci. "
       description="Studio Forte Massucci offre assistenza pluriennale per la tua contabilità, gestione societaria e revisione legale. Soluzioni su misura nel cuore di Roma."
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-wearing-spectacles-holding-newspaper-caf_23-2147876735.jpg?_wi=1", imageAlt: "Studio Forte Massucci Eur" },
