@@ -37,7 +37,7 @@ export default function LandingPage() {
         { name: "Tariffe", id: "pricing" }
       ]}
       brandName="Studio Forte Massucci"
-      
+      button={{ text: "Contattaci", href: "#footer" }}
     />
   </div>
 
@@ -90,9 +90,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        { id: "forfait", name: "Contabilità Forfettaria", price: "€50/mese", features: ["Dichiarazione redditi", "Assistenza base", "Gestione scadenzario"] },
-        { id: "base", name: "Contabilità Base", price: "€150/mese", features: ["Contabilità completa", "Bilancio periodico", "Consulenza dedicata"] },
-        { id: "pro", name: "Consulenza Business", price: "€300/mese", features: ["Analisi strategica", "Pianificazione finanziaria", "Supporto dedicato"] }
+        { id: "forfait", name: "Contabilità Forfettaria", price: "€50/mese", features: ["Dichiarazione redditi", "Assistenza base", "Gestione scadenzario"], buttons: [{ text: "Seleziona Piano", href: "#pricing" }] },
+        { id: "base", name: "Contabilità Base", price: "€150/mese", features: ["Contabilità completa", "Bilancio periodico", "Consulenza dedicata"], buttons: [{ text: "Seleziona Piano", href: "#pricing" }] },
+        { id: "pro", name: "Consulenza Business", price: "€300/mese", features: ["Analisi strategica", "Pianificazione finanziaria", "Supporto dedicato"], buttons: [{ text: "Seleziona Piano", href: "#pricing" }] }
       ]}
       title="Tariffe trasparenti"
       description="Soluzioni di abbonamento mensile per ogni esigenza."
