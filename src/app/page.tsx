@@ -65,7 +65,7 @@ export default function LandingPage() {
         { title: "Gestione Lavoro", description: "Supporto completo paghe e contributi." },
         { title: "Revisione Legale", description: "Revisione puntuale e certificata." },
       ]}
-      imageSrc="https://images.unsplash.com/photo-1554744512-78d78304910e?w=800&h=600&q=80"
+      imageSrc="https://img.b2bpic.net/premium-photo/businesswoman-shaking-hands-with-businessman-desk-office_265022-112864.jpg?id=416438581"
       mediaAnimation="slide-up"
     />
   </div>
