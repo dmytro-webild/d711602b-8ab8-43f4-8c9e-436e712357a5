@@ -105,8 +105,8 @@ export default function LandingPage() {
       title="Numeri del nostro studio"
       tag="Eccellenza"
       metrics={[
-        { id: "m1", value: "15+", description: "Anni di esperienza" },
-        { id: "m2", value: "200+", description: "Clienti attivi" },
+        { id: "m1", value: "25", description: "Anni di esperienza" },
+        { id: "m2", value: "", description: "Clienti attivi" },
         { id: "m3", value: "100%", description: "Precisione garantita" }
       ]}
       metricsAnimation="slide-up"
