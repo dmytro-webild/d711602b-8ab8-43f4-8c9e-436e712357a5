@@ -134,7 +134,8 @@ export default function LandingPage() {
         { id: "2", title: "Puntuali", quote: "Gestione fiscale impeccabile per la mia attività.", name: "Giulia S.", role: "Professionista", imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&q=80" },
         { id: "3", title: "Competenti", quote: "Consigli validissimi per il mio lavoro.", name: "Luca V.", role: "Commerciante", imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&q=80" },
         { id: "4", title: "Consigliato", quote: "Molto precisi con le scadenze.", name: "Anna P.", role: "Libera Professionista", imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&q=80" },
-        { id: "5", title: "Servizio Ottimo", quote: "Supporto completo e affidabile.", name: "Roberto D.", role: "Responsabile", imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&q=80" }
+        { id: "5", title: "Servizio Ottimo", quote: "Supporto completo e affidabile.", name: "Roberto D.", role: "Responsabile", imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&q=80" },
+        { "id": "6", "title": "Affidabile", "quote": "Sempre disponibili e professionali.", "name": "Sofia G.", "role": "Impiegata" }
       ]}
       title="Cosa dicono i clienti"
       description="La soddisfazione dei nostri assistiti è la nostra priorità."
