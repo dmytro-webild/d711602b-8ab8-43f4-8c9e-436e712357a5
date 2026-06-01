@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Nunito } from "next/font/google";
 
@@ -29,7 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
         <body className={`${nunito.variable} antialiased`}>
-          <Tag />
+          
           {children}
           <script
               dangerouslySetInnerHTML={{
