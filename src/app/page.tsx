@@ -147,7 +147,7 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="Studio Forte Massucci"
       columns={[
-        { title: "Contatti", items: [{ label: "Via Luigi Lilio 22, Eur", href: "#" }] },
+        { title: "Contatti", items: [{ label: "Via Luigi Lilio 22, Eur", href: "#" }, { label: "studiofortemassucci@gmail.com", href: "mailto:studiofortemassucci@gmail.com" }] },
         { title: "Servizi", items: [{ label: "Fiscale", href: "#services" }, { label: "Lavoro", href: "#services" }, { label: "Societario", href: "#services" }] }
       ]}
       copyrightText="© 2024 Studio Forte Massucci. Tutti i diritti riservati."
