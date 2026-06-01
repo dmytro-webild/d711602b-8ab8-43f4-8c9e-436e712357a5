@@ -106,7 +106,6 @@ export default function LandingPage() {
       tag="Eccellenza"
       metrics={[
         { id: "m1", value: "25", description: "Anni di esperienza" },
-        { id: "m2", value: "", description: "" },
         { id: "m3", value: "100%", description: "Precisione garantita" }
       ]}
       metricsAnimation="slide-up"
