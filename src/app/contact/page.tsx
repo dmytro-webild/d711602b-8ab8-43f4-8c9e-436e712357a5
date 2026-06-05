@@ -62,7 +62,7 @@ export default function ContactPage() {
             textarea={{ name: "message", placeholder: "Il tuo messaggio", rows: 5, required: true }}
             buttonText="Invia Messaggio"
             onSubmit={handleSubmit}
-            imageSrc="https://images.unsplash.com/photo-1542359649-31e03cd4d91b?w=800&h=600&q=80" // Adding a placeholder image for ContactSplitForm, as it is recommended.
+            imageSrc="https://img.b2bpic.net/free-photo/aerial-view-business-data-analysis-graph_53876-13390.jpg?id=2753722" // Adding a placeholder image for ContactSplitForm, as it is recommended.
             imageAlt="Contact form background image"
             mediaPosition="right"
           />
