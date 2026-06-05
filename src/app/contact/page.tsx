@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import ButtonTextStagger from '@/components/button/ButtonTextStagger/ButtonTextStagger';
 
 export default function ContactPage() {
   const handleSubmit = (email: string) => {
@@ -54,6 +55,13 @@ export default function ContactPage() {
             termsText="Cliccando 'Invia Messaggio' accetti i nostri termini e condizioni."
             onSubmit={handleSubmit}
           />
+          <div className="flex justify-center mt-8">
+            <ButtonTextStagger
+              text="Scrivi un'Email"
+              href="mailto:studiofortemassucci@gmail.com"
+              className="bg-primary-cta text-primary-cta-text rounded-pill py-3 px-6"
+            />
+          </div>
         </div>
 
         <div id="footer" data-section="footer">
