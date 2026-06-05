@@ -34,10 +34,10 @@ export default function LandingPage() {
         { name: "Home", id: "/" },
         { name: "Chi Siamo", id: "/#about" },
         { name: "Servizi", id: "/#services" },
-        { name: "Tariffe", id: "/#pricing" }
+        { name: "Tariffe", id: "/#pricing" },
+        { name: "Contattaci", id: "/contact" }
       ]}
       brandName="Studio Forte Massucci"
-      button={{ text: "Contattaci", href: "/contact" }}
     />
   </div>
 
