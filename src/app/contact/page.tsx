@@ -9,6 +9,9 @@ import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 export default function ContactPage() {
   const handleSubmit = (email: string) => {
     console.log("Email submitted:", email);
+    // In a real application, you would send this email to a backend service.
+    // The current ContactSplit component is designed for email submission only,
+    // and does not natively support a separate message field via its propsSchema.
     alert(`Grazie per il tuo messaggio! Ti risponderemo presto a ${email}.`);
   };
 
