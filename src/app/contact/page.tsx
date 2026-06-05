@@ -2,18 +2,27 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import ButtonTextStagger from '@/components/button/ButtonTextStagger/ButtonTextStagger';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm'; // New import
 
 export default function ContactPage() {
-  const handleSubmit = (email: string) => {
-    console.log(`Email submitted: ${email}. Intended recipient: studiofortemassucci@gmail.com`);
-    // In a real application, you would send this email to a backend service.
-    // The current ContactSplit component is designed for email submission only,
-    // and does not natively support a separate message field via its propsSchema.
-    alert(`Grazie per il tuo messaggio da ${email}! Ti risponderemo presto all'indirizzo ${email}. Il tuo messaggio sarà inviato a studiofortemassucci@gmail.com.`);
+  const handleSubmit = (data: Record<string, string>) => {
+    console.log("Form data submitted:", data);
+    const email = data.email || 'N/A';
+    const message = data.message || 'N/A';
+    alert(`Grazie per il tuo messaggio da ${email}!\nMessaggio: \"${message}\"\nTi risponderemo presto. Il tuo messaggio sarà inviato a studiofortemassucci@gmail.com.`);
+    // In a real application, you would send this data to a backend service.
+  };
+
+  const commonNavbarProps = {
+    brandName: "Studio Forte Massucci",    navItems: [
+      { name: "Home", id: "/" },
+      { name: "Chi Siamo", id: "/#about" },
+      { name: "Servizi", id: "/#services" },
+      { name: "Tariffe", id: "/#pricing" }
+    ],
+    button: { text: "Contattaci", href: "/contact" }
   };
 
   return (
@@ -31,37 +40,25 @@ export default function ContactPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarLayoutFloatingInline
-            navItems={[
-              { name: "Home", id: "/" },
-              { name: "Chi Siamo", id: "/#about" },
-              { name: "Servizi", id: "/#services" },
-              { name: "Tariffe", id: "/#pricing" }
-            ]}
-            brandName="Studio Forte Massucci"
-            button={{ text: "Contattaci", href: "/contact" }}
-          />
+          <NavbarLayoutFloatingInline {...commonNavbarProps} />
         </div>
 
         <div id="contact" data-section="contact">
-          <ContactSplit
-            tag="Contattaci"
+          <ContactSplitForm
             title="Parliamone del tuo business"
             description="Siamo qui per aiutarti. Compila il modulo e ti risponderemo al più presto."
-            background={{ variant: "plain" }}
             useInvertedBackground={false}
-            inputPlaceholder="La tua email"
+            inputs={[
+              { name: "name", type: "text", placeholder: "Il tuo nome", required: true },
+              { name: "email", type: "email", placeholder: "La tua email", required: true }
+            ]}
+            textarea={{ name: "message", placeholder: "Il tuo messaggio", rows: 5, required: true }}
             buttonText="Invia Messaggio"
-            termsText="Cliccando 'Invia Messaggio' accetti i nostri termini e condizioni."
             onSubmit={handleSubmit}
+            imageSrc="https://images.unsplash.com/photo-1542359649-31e03cd4d91b?w=800&h=600&q=80" // Adding a placeholder image for ContactSplitForm, as it is recommended.
+            imageAlt="Contact form background image"
+            mediaPosition="right"
           />
-          <div className="flex justify-center mt-8">
-            <ButtonTextStagger
-              text="Scrivi un'Email"
-              href="mailto:studiofortemassucci@gmail.com"
-              className="bg-primary-cta text-primary-cta-text rounded-pill py-3 px-6"
-            />
-          </div>
         </div>
 
         <div id="footer" data-section="footer">
