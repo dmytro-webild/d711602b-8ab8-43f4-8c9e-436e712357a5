@@ -8,11 +8,18 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm'; /
 
 export default function ContactPage() {
   const handleSubmit = (data: Record<string, string>) => {
-    console.log("Form data submitted:", data);
-    const email = data.email || 'N/A';
-    const message = data.message || 'N/A';
-    alert(`Grazie per il tuo messaggio da ${email}!\nMessaggio: \"${message}\"\nTi risponderemo presto. Il tuo messaggio sarà inviato a studiofortemassucci@gmail.com.`);
-    // In a real application, you would send this data to a backend service.
+    const senderName = data.name || 'Nome Sconosciuto';
+    const senderEmail = data.email || 'email@example.com';
+    const messageContent = data.message || 'Nessun messaggio fornito.';
+
+    const subject = encodeURIComponent(`Messaggio da ${senderName} (Contatto Sito Web)`);
+    const body = encodeURIComponent(`Nome: ${senderName}\nEmail: ${senderEmail}\nMessaggio:\n${messageContent}`);
+
+    const mailtoLink = `mailto:studiofortemassucci@gmail.com?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
+
+    alert(`Grazie per il tuo messaggio, ${senderName}! Ti risponderemo presto. Una finestra di composizione email si aprirà per finalizzare l'invio.`);
   };
 
   const commonNavbarProps = {
