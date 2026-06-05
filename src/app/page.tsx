@@ -38,6 +38,7 @@ export default function LandingPage() {
         { name: "Contattaci", id: "/contact" }
       ]}
       brandName="Studio Forte Massucci"
+      button={{ text: "Contattaci", href: "/contact" }}
     />
   </div>
 
