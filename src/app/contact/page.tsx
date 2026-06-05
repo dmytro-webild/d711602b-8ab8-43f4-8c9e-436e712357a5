@@ -29,7 +29,8 @@ export default function ContactPage() {
       { name: "Servizi", id: "/#services" },
       { name: "Tariffe", id: "/#pricing" },
       { name: "Contattaci", id: "/contact" }
-    ]
+    ],
+    button: { text: "Contattaci", href: "/contact" }
   };
 
   return (
